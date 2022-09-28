@@ -24,6 +24,26 @@ public class Main {
         }
 
 
+        int stendingPlacesTotal = 41;
+        int seatsPlacesTotal = 47;
+        if (stendingPlacesTotal >= 42 && seatsPlacesTotal >= 60){
+            System.out.println("В вагоне мест нет!");
+        }
+        if (stendingPlacesTotal <= 41 && seatsPlacesTotal >= 60 ){
+            System.out.println("В вагоне есть стоячее место!");
+        }
+        if (stendingPlacesTotal >= 42 && seatsPlacesTotal <= 59 ){
+            System.out.println("В вагоне есть сидячее место!");
+        }
+        if (stendingPlacesTotal <= 42 && seatsPlacesTotal <= 59 ) {
+            System.out.println("В вагоне есть стоячее и сидячее место!");
+        }
+
+
+
+
+
+
     }
 
 
