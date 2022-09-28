@@ -39,6 +39,15 @@ public class Main {
             System.out.println("В вагоне есть стоячее и сидячее место!");
         }
 
+            int ageBob = 17;
+            if (ageBob>=18){
+                System.out.println("Поздрвляю, Вы совершеннолетний!");
+            }
+            else {
+                System.out.println("Вам необходимо дождаться совершеннолетия(");
+
+        }
+
 
 
 
