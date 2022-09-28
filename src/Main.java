@@ -9,18 +9,16 @@ public class Main {
         }
 
 
-        int you = 6;
-        if (you >= 7 || you <= 18) {
+        int you = 20;
+        if (you >= 7 && you <= 18) {
             System.out.println("Вы ходите в школу)");
         }
-        if (you >=19 || you<=23){
+        if (you >=19 && you<=23){
             System.out.println("Вы учитесь в институте)");
         }
         if (you >= 24) {
             System.out.println("Вам нужно искать работу");
-        }
-        else {
-            System.out.println("Вы даже до школы не доросли)");
+
         }
 
 
@@ -39,7 +37,7 @@ public class Main {
             System.out.println("В вагоне есть стоячее и сидячее место!");
         }
 
-            int ageBob = 17;
+            int ageBob = 21;
             if (ageBob>=18){
                 System.out.println("Поздрвляю, Вы совершеннолетний!");
             }
@@ -47,6 +45,23 @@ public class Main {
                 System.out.println("Вам необходимо дождаться совершеннолетия(");
 
         }
+        int ageOleg = 12;
+        if (ageOleg >= 7 && ageOleg <= 18) {
+            System.out.println("Ходите в школу)");
+        }
+        if (ageOleg >=19 && ageOleg <=23 ){
+            System.out.println("Учитесь в институте)");
+        }
+        if (ageOleg >= 24) {
+            System.out.println("Вам нужно искать работу");
+        }
+        else {
+            System.out.println("Вы даже до школы не доросли)");
+        }
+
+
+
+
 
 
 
